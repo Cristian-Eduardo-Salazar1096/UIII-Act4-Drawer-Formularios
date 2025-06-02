@@ -40,19 +40,67 @@ class HomePage extends StatelessWidget {
               accountName: Text("Cristian Salazar 1096"),
               accountEmail: Text("a.22308051281096@cbtis128.edu.mx"),
               currentAccountPicture: GestureDetector(
-                child: CircleAvatar(
-                  backgroundColor: Colors.white,
-                  child: Text(
-                    "CS",
-                    style: TextStyle(
-                        color: Colors.pink,
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold),
-                  ),
+                  child: CircleAvatar(
+            radius: 130,
+            backgroundColor: Colors.red,
+            child: CircleAvatar(
+              radius: 120,
+              backgroundImage: NetworkImage(
+                  'https://raw.githubusercontent.com/Cristian-Eduardo-Salazar1096/Imagenes/refs/heads/main/786552997842d3310208bdcd1077fe49-removebg-preview.png'),
+            ),
+          ),
+
                   
                 ),
               ),
-            )
+              InkWell(
+              onTap: (){},
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/producto");},
+                leading: Icon(Icons.shop, color: Colors.pink),
+                title: Text("Producto"),
+              ),
+            ),
+            InkWell(
+              onTap: (){},
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/empleado");},
+                leading: Icon(Icons.supervised_user_circle, color: Colors.pink),
+                title: Text("Empleado"),
+              ),
+            ),
+            InkWell(
+              onTap: (){},
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/home");},
+                leading: Icon(Icons.person, color: Colors.pink),
+                title: Text("Cliente"),
+              ),
+            ),
+            InkWell(
+              onTap: (){},
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/home");},
+                leading: Icon(Icons.delivery_dining, color: Colors.pink),
+                title: Text("Pedidos"),
+              ),
+            ),
+            InkWell(
+              onTap: (){},
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/home");},
+                leading: Icon(Icons.work, color: Colors.pink),
+                title: Text("Provedores"),
+              ),
+            ),
+            InkWell(
+              onTap: (){},
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/home");},
+                leading: Icon(Icons.category, color: Colors.pink),
+                title: Text("Categoria"),
+              ),
+            ),
           ],
         ),
       ),
