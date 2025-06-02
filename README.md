@@ -1,16 +1,15 @@
-# myapp
+## Act4 Drawer Formularios
 
-A new Flutter project.
+![image](https://github.com/user-attachments/assets/679b4eb7-4c06-4a6f-916e-bd2aaacc7996)
+![image](https://github.com/user-attachments/assets/5564368e-3f28-4b47-a07d-21954415fd8f)
 
-## Getting Started
+Producto
+![image](https://github.com/user-attachments/assets/beaa776c-9294-410f-a459-e269060c7cb4)
+![image](https://github.com/user-attachments/assets/096e595c-3c67-4242-85bd-61f592452c62)
+![image](https://github.com/user-attachments/assets/e5c0299b-d123-4cce-9ef1-1fad7f7043de)
 
-This project is a starting point for a Flutter application.
+Empleado
+![image](https://github.com/user-attachments/assets/a4db401d-104a-4f21-bd8e-82c120b4acda)
+![image](https://github.com/user-attachments/assets/f9adf2d6-d7d6-497e-9ce7-11b1176c8a8f)
+![image](https://github.com/user-attachments/assets/c0ab7961-05a8-4e66-b510-bddf08a1921b)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
